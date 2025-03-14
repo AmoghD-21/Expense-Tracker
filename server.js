@@ -1,6 +1,7 @@
 import express from "express";
 import dotenv from "dotenv";
 import { exportDB } from "./config/db";
+import { exportUserRoutes } from "./routes/userRoutes.js";
 dotenv.config();
 const app=express();
 
