@@ -1,6 +1,6 @@
 import express from "express";
-import { exportExpenseController } from "../controllers/expenseController";
-import { exportauthMiddleware } from "../middleware/authMiddleware";
+import { exportExpenseController } from "../controllers/expenseController.js";
+import { exportauthMiddleware } from "../middleware/authMiddleware.js";
 
 const {addExpense,getExpenses}=exportExpenseController;
 const {authMiddleware}=exportauthMiddleware;

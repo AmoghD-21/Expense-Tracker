@@ -38,4 +38,4 @@ const loginUser=async (req,res)=> {
 };
 
 const exportController={registerUser,loginUser};
-export {exportUserController};
+export {exportController};
