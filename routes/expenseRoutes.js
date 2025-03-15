@@ -9,5 +9,5 @@ const router=express.Router();
 router.post("/",authMiddleware,addExpense);
 router.get("/",authMiddleware,getExpenses);
 
-const exportExpenseRoutes={routes};
+const exportExpenseRoutes={router};
 export {exportExpenseRoutes};

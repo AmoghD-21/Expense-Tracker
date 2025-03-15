@@ -1,7 +1,7 @@
 import express from "express";
-import { exportUserController } from "../controllers/userController.js";
+import { exportController } from "../controllers/userController.js";
 
-const {registerUser,loginUser}=exportUserController;
+const {registerUser,loginUser}=exportController;
 
 const router=express.Router();
 

@@ -21,5 +21,5 @@ const getExpenses=async (req,res)=>{
     }
 };
 
-const exportExpenseController={addExpense,getExpense};
+const exportExpenseController={addExpense,getExpenses};
 export {exportExpenseController};
