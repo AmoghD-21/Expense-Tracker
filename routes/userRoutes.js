@@ -5,8 +5,8 @@ const {registerUser,loginUser}=exportController;
 
 const router=express.Router();
 
-router.post("/",registerUser);
-router.post("/",loginUser);
+router.post("/register",registerUser);
+router.post("/login",loginUser);
 
 const exportUserRoutes={router};
 export  {exportUserRoutes};
